@@ -198,7 +198,7 @@ This makes it easy to keep configuration centralized and changeable without touc
 | POST   | /api/register | Register a new user |
 | POST   | /api/login    | Login and get token |
 
-**Protected Routes** (`auth:sanctum` middleware)
+**Protected Routes** (`auth:sanctum` middleware):
 
 | Method | Endpoint    | Description           |
 | ------ | ----------- | --------------------- |
