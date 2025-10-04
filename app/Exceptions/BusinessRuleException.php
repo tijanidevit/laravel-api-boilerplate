@@ -2,13 +2,11 @@
 
 namespace App\Exceptions;
 
-use App\Traits\ResponseTrait;
 use Exception;
 use Throwable;
 
 class BusinessRuleException extends Exception
 {
-    use ResponseTrait;
 
     protected array $errors = [];
 

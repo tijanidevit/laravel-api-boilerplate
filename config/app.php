@@ -99,6 +99,10 @@ return [
 
     'key' => env('APP_KEY'),
 
+    'frontend_url' => env('FRONTEND_URL'),
+
+    'pagination_count' => env('PAGINATE_COUNT'),
+
     'previous_keys' => [
         ...array_filter(
             explode(',', (string) env('APP_PREVIOUS_KEYS', ''))
